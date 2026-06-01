@@ -1,0 +1,38 @@
+# Root-level ignores for this workspace
+
+# Node modules and build output
+frontend_hms/node_modules/
+frontend_hms/dist/
+frontend_hms/build/
+
+# Vite cache
+frontend_hms/.vite/
+
+# Python/Django
+backend_hms/__pycache__/
+backend_hms/*.py[cod]
+backend_hms/*.pyo
+backend_hms/*.pyd
+backend_hms/db.sqlite3
+backend_hms/db.sqlite3-journal
+backend_hms/.env
+backend_hms/.venv/
+backend_hms/venv/
+backend_hms/ENV/
+backend_hms/env/
+
+# Editor and system files
+*.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
