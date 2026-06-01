@@ -3,8 +3,7 @@
 import os
 import sys
 
-# this is test
-import django
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'hospital_backend.settings')
@@ -22,11 +21,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-# this is test# this is test
-# this is test
 
-# this is test
-# this is test
 
 
 
